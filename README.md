@@ -12,7 +12,7 @@ Tellus Jupyter上で衛星データを分析するJupyter Notebookのサンプ�
 
 ## Notebook一覧
 * 光学画像の基礎分析1（雪判定）:  
-  Tellusから光学画像（AVNIR-2）を取得し、雪のの範囲特定を行います
+  Tellusから光学画像（AVNIR-2）を取得し、雪の範囲特定を行います
 * 光学画像の基礎分析2（雪質分析）:  
   Tellusから光学画像（AVNIR-2）を取得し、雪質の判定を行います
 * SAR画像の基礎分析（雪判定）  
