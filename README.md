@@ -25,6 +25,8 @@ Tellus Jupyter上で衛星データを分析するJupyter Notebookのサンプ�
 
 提供中のAPIについては[こちら](https://www.tellusxdp.com/ja/dev/api)も併せてご覧ください。
 
+※ XYZ方式とは、ズームとタイル座標を指定する方式です。[詳細やそれぞれの値を決める方法についてはこちら](https://maps.gsi.go.jp/development/siyou.html)をご覧ください。
+
 |種類|内容|エンドポイント|パラメータ|補足|
 |----|----|--------------|----------|----|
 |OpenStreetMap|XYZで指定された位置・ズームのOpenStreetMapのタイル画像を返します|https://gisapi.tellusxdp.com/osm/{z}/{x}/{y}.png||XYZ方式|
@@ -35,6 +37,4 @@ Tellus Jupyter上で衛星データを分析するJupyter Notebookのサンプ�
 |AVNIR-2 (band3 red)|XYZで指定された位置・ズームのAVNIR-2 band3のタイル画像を返します|https://gisapi.tellusxdp.com/av2ori/band3/{z}/{x}/{y}.png||XYZ方式|
 |AVNIR-2 (band4 nir)|XYZで指定された位置・ズームのAVNIR-2 band4のタイル画像を返します|https://gisapi.tellusxdp.com/av2ori/band4/{z}/{x}/{y}.png||XYZ方式|
 |AVNIR-2 (brend)|XYZで指定された位置・ズームでパラメータに基づいてRGB合成されたAVNIR-2のタイル画像を返します|https://gisapi.tellusxdp.com/blend/{z}/{x}/{y}.png?opacity=1&r=4&g=3&b=2&rdepth=1&gdepth=1&bdepth=1&preset=ndvi|`opacity`: 透過度 (default: `1`)<br>`r`: Redに対応させるバンド (default: `3`)<br>`g`: Greenに対応させるバンド (default: `2`)<br>`b`: Blueに対応させるバンド (default: `1`)<br>`rdepth`: Redの濃さ (default: `1`)<br>`gdepth`: Greenの濃さ (default: `1`)<br>`bdepth`: Blueの濃さ (default: `1`)<br>`preset`: `true`, `false`, `natural`, `ndvi` のいずれか。`ndvi`の場合、`opacity`以外のパラメータは無視されます。(default: `false`)|XYZ方式|
-
-XYZ方式とは、ズームとタイル座標を指定する方式です。[詳細やそれぞれの値を決める方法についてはこちら](https://maps.gsi.go.jp/development/siyou.html)をご覧ください。
 
