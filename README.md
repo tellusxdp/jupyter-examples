@@ -19,6 +19,21 @@ Tellus Jupyter上で衛星データを分析するJupyter Notebookのサンプ�
   TellusからSAR画像（PALSAR-2）を取得し、雪の範囲特定を行います
 
 
+## ライブラリについて
+代表的なライブラリはインストール済みですが、追加でインストールすることも可能です。
+Jupyter Notebook画面の `New` > `Terminal` からターミナルを開き、`conda` や `pip` コマンドでインストールを行ってください。
+
+### インストール済みの主なライブラリ
+* `numpy=1.13`
+* `matplotlib=2.2`
+* `pandas=0.23`
+* `scipy=1.1`
+* `scikit-learn=0.20`
+* `scikit-image=0.14`
+* `tensorflow=1.12`
+* `keras=2.2`
+
+
 ## APIについて
 現在、本環境から利用できるAPIを順次追加しています。Tellus Jupyter内での通常の利用については制限ありません。
 データをTellus Jupyter外で利用する場合は、データによって一部制限があります。詳しくは[各データポリシー](https://www.tellusxdp.com/ja/dev/data)をご覧ください。
