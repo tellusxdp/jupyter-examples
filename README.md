@@ -34,9 +34,9 @@ Jupyter Notebook画面の `New` > `Terminal` からターミナルを開き、`c
 
 ## APIについて
 現在、本環境から利用できるAPIを順次追加しています。Tellus Jupyter内での通常の利用については制限ありません。
-データをTellus Jupyter外で利用する場合は、データによって一部制限があります。詳しくは[各データポリシー](https://www.tellusxdp.com/ja/dev/data)をご覧ください。
+データをTellus Jupyter外で利用する場合は、データによって一部制限があります。詳しくは[Tellusマーケット](https://www.tellusxdp.com/market/)の各データのポリシーをご覧ください。
 
-提供中のAPI詳細については[こちら](https://www.tellusxdp.com/ja/dev/api)をご覧ください。
+提供中のAPI詳細については[Tellusマーケット](https://www.tellusxdp.com/market/)の各データのAPIリファレンスをご覧ください。
+APIの使い方は[こちら](https://www.tellusxdp.com/ja/howtouse/dev/20200219_000172.html)のページをご覧ください。
 
-※ XYZ方式とは、ズームとタイル座標を指定する方式です。[詳細やそれぞれの値を決める方法についてはこちら](https://maps.gsi.go.jp/development/siyou.html)をご覧ください。
-
+※ XYZ方式とは、ズームとタイル座標を指定する方式です。[詳細やそれぞれの値を決める方法についてはこちら](https://www.tellusxdp.com/ja/howtouse/dev/20200220_000177.html)をご覧ください。
